@@ -1,9 +1,3 @@
-<?php
-
-    include 'Angka.php';
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +17,8 @@
 
 <?php
 
+    include 'Angka.php';
+    
     if(isset($_POST['perulangan'])){
 
         $perulangan = $_POST['perulangan'];
